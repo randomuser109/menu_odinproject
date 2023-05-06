@@ -1,3 +1,10 @@
 h1 {
     text-align: center;
+    
+}
+
+#template {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
 }
