@@ -1,57 +1,94 @@
 h1, h2 {
     text-align: center;
-    
+    color: aliceblue;
 }
 
-#template_b {
-    height: 400px;
+body {
+    background-color: black;
+}
+
+
+
+.burger {
     width: 400px;
-    background-color: aqua;
+    height: 400px;
+    background-color: rgb(119, 48, 0);
 
-    margin: left;
-    padding: 5px;
+}
+
+.burger img {
+    width: 200px;
+    margin-top:20px;
 }
 
 
-#burger {
+#container_burger .burger{
     text-align: center;
+    position: absolute; top: 124px; left: 200px;
 }
 
-#food_text{
-    font-size: 20px;
+#list1 li {
+    text-align: left;
+}
+
+#hamburger_text {
+    font-size: 25px;
     font-weight: bold;
 }
 
-#b_img {
-    width: 50%;
-}
-/*
-#b_video {
-    height: 200px;
+#link_color {
+    color: white;
 }
 
-.list {
-    border-radius: 10%;
-    width: 0px;
-    height: 10px;
-    margin: 20px;
-}
-*/
-
-#template_p {
-    background-color: aqua;
+#container_pizza {
     width: 400px;
     height: 400px;
-    margin-left: 1015px;
-    margin-top: -29%;
-    padding: 5px;
+    position:  absolute; top: 124px; left: 760px;
+    background-color: rgb(119, 48, 0);
 }
 
-#pizza {
+
+#container_pizza img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+#container_pizza .pizza{
     text-align: center;
-    padding: 5px;
 }
 
-#p_img {
-    width: 50%;
+
+#container_salami{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(119, 48, 0);
+    position: absolute; top: 600px; left: 200px;
+}
+
+#container_salami .salami{
+    text-align: center;
+}
+
+#container_salami img{
+    width: 220px;
+    height: 200px;
+    
+}
+
+#container_curry{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(119, 48, 0);
+    position: absolute; top: 600px; left: 760px;
+}
+
+#container_curry .curry{
+    text-align: center;
+}
+
+#container_curry img{
+    width: 220px;
+    height: 200px;
+    
 }
